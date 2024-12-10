@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <style type="text/css">
+      @font-face {
+        font-family: SBSansDisplay;
+        font-weight: 400;
+        src: url(https://spasibosberbank.ru/upload/travel/avia/email/fonts/SBSansDisplay-Regular.eot);
+        src: url(https://spasibosberbank.ru/upload/travel/avia/email/fonts/SBSansDisplay-Regular.eot?#iefix)
+            format("embedded-opentype"),
+          url(https://spasibosberbank.ru/upload/travel/avia/email/fonts/SBSansDisplay-Regular.woff)
+            format("woff"),
+          url(https://spasibosberbank.ru/upload/travel/avia/email/fonts/SBSansDisplay-Regular.ttf)
+            format("truetype");
+      }
+      /* Base styles */
+      .logo-container {
+        text-align: left !important;
+      }
+
+      /* Tablet styles */
+      @media only screen and (max-width: 768px) {
+        .email-container {
+          width: 100% !important;
+        }
+        .logo-container {
+          text-align: left !important;
+        }
+      }
+
+      /* Mobile styles */
+      @media only screen and (max-width: 480px) {
+        .email-container {
+          width: 100% !important;
+        }
+        .logo-container {
+          text-align: center !important;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        .hero-section {
+          padding-bottom: 120px !important; /* Increased padding for larger image */
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        .hero-section {
+          padding-bottom: 100px !important;
+        }
+        .corner-image {
+          width: 150px !important; /* Slightly smaller on mobile */
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <table
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      style="table-layout: fixed"
+    >
+      <tr>
+        <td align="center" bgcolor="#f4f4f4" style="padding: 20px 0">
+          <table
+            class="email-container"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            style="background-color: #ffffff"
+          >
+            <!-- Header with responsive logo -->
+            <tr>
+              <td class="logo-container" style="padding: 20px">
+                <img
+                  src="https://spasibosberbank.ru/upload/travel/avia/email/spasibo_logo.png"
+                  alt="Logo"
+                  width="200"
+                  style="display: block"
+                />
+              </td>
+            </tr>
+
+            <!-- 39px spacing -->
+            <tr>
+              <td style="height: 39px"></td>
+            </tr>
+
+            <!-- Hero section with background image -->
+            <tr>
+              <td
+                class="hero-section"
+                style="
+                  background-image: url('./Background_desktop.png');
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  padding: 60px 20px;
+                  text-align: center;
+                  height: 646px;
+                "
+              >
+                <!--[if gte mso 9]>
+                            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;">
+                            <v:fill type="tile" src="your-background-image.jpg" />
+                            <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+                            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td>
+                      <h1
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-size: 32px;
+                          line-height: 1.2;
+                          margin: 0 0 20px 0;
+                          background: linear-gradient(
+                            90deg,
+                            #ff6b6b 0%,
+                            #4ecdc4 100%
+                          );
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          background-clip: text;
+                          color: #ff6b6b; /* Fallback color */
+                        "
+                      >
+                        Your Headline Here
+                      </h1>
+                      <p
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-size: 18px;
+                          line-height: 1.5;
+                          margin: 0;
+                          background: linear-gradient(
+                            90deg,
+                            #ff6b6b 0%,
+                            #4ecdc4 100%
+                          );
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          background-clip: text;
+                          color: #4ecdc4; /* Fallback color */
+                        "
+                      >
+                        Your subheading or description text goes here
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="position: relative">
+                      <div
+                        style="
+                          position: absolute;
+                          right: -20px;
+                          bottom: -340px;
+                          z-index: 1;
+                        "
+                      >
+                        <!--[if gte mso 9]>
+                          <v:image
+                            xmlns:v="urn:schemas-microsoft-com:vml"
+                            src="corner-image.png"
+                            style="width: 100px; height: 100px"
+                          />
+                        <![endif]-->
+                        <!--[if !mso]><!-->
+                        <img
+                          src="./Image_desktop.png"
+                          alt="Corner Image"
+                          style="
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                            max-width: 100%;
+                          "
+                        />
+                        <!--<![endif]-->
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if gte mso 9]>
+                            </v:textbox>
+                            </v:rect>
+                            <![endif]-->
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td bgcolor="#f8f9fa" style="padding: 20px">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td
+                      style="
+                        font-family: Arial, sans-serif;
+                        font-size: 14px;
+                        color: #999999;
+                        text-align: center;
+                      "
+                    >
+                      <p style="margin: 0">Company Name</p>
+                      <p style="margin: 0">123 Street Name, City, Country</p>
+                      <p style="margin: 10px 0">
+                        <a
+                          href="#"
+                          style="color: #007bff; text-decoration: none"
+                          >Unsubscribe</a
+                        >
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
